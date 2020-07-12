@@ -31,6 +31,7 @@ export default class CharacterHolder extends React.Component{
 
   onTurnEnd = (uuid) => {
     this.state.charData.find(char => char.uuid === uuid).moved = true;
+    this.sortChars()
   }
 
   sortChars = () => {
