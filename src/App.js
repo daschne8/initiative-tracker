@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {seedChars} from './data/seed';
 import CharacterHolder from './containers/CharacterHolder';
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
       <header className="App-header">
       DnD Initiative Tracker
       </header>
-      <CharacterHolder props={seedChars}/>
+      <CharacterHolder />
     </div>
   );
 }
