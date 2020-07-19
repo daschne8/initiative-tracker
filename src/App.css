@@ -45,3 +45,23 @@
 .main{
   border: 1px solid black;
 }
+
+.character-holder{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.chars-div{
+  grid-column-start: 1;
+  gird-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.character-creater{
+  grid-column: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
